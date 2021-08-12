@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#projects {
+  background-color: hsl(198, 100%, 92%);
+}
+section {
+  padding-top: 5rem;
+}
+.card-img-top {
+  padding-top: 2rem;
+}
+footer {
+  height: 70px;
+  background-color: hsl(198, 100%, 85%);
+  position: relative;
+  padding-top: 40px;
+  width: 100%;
+}
+footer p {
+  margin-bottom: 0;
+}
+.social i {
+  margin: 7px;
+}
+
+/*css for alert messages*/
+
+.alert-success {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  background: #d4edda;
+  padding: 20px 40px;
+  min-width: 100%;
+  right: 0;
+  bottom: 70px;
+  border-left: 8px solid #b5e8f3;
+  border-radius: 4px;
+}
+
+.alert-error {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  background: #fff3cd;
+  padding: 20px 40px;
+  min-width: 100%;
+  right: 0;
+  bottom: 70px;
+  border-left: 8px solid #ff0202d5;
+  border-radius: 4px;
+}
+.btn-close {
+  position: relative;
+  display: none;
+
+  left: 30px;
+  /* transition: all 200ms; */
+  font-size: 14px;
+  visibility: inherit;
+}
